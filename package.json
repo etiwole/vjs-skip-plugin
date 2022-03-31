@@ -1,0 +1,20 @@
+{
+  "name": "vjs-skip-plugin",
+  "version": "1.0.35",
+  "main": "dist/index.js",
+  "author": "etiwole",
+  "license": "MIT",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepare": "yarn build"
+  },
+  "devDependencies": {
+    "video.js": "^7.18.1"
+  },
+  "dependencies": {
+    "@types/video.js": "^7.3.32"
+  }
+}
